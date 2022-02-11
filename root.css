@@ -75,9 +75,16 @@ html {
 
 
 body {
-    line-height: 1.5em;
     color: #fff;
     background-color: #0f0f0f;
+    font-family: "Montserrat", sans-serif;
+    background: #0f0f0f;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 h1 {
@@ -116,4 +123,28 @@ footer {
     left: 10px;
     bottom: 10px;
     width: 100%;
+}
+
+@media (max-width: 1680px) {
+    html {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 980px) {
+    html {
+        font-size: 11pt;
+    }
+}
+
+@media (max-width: 736px) {
+    html {
+        font-size: 11pt;
+    }
 }
