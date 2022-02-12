@@ -342,7 +342,7 @@ a {
     flex-shrink: 0;
     --alignment: center;
     --flex-alignment: center;
-    --width: 28rem;
+    --width: 55rem;
     --padding-vertical: 3.5rem;
     --padding-horizontal: 3.5rem;
     transition: opacity 1.125s ease 0s, transform 1.125s ease 0s;
