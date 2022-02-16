@@ -85,6 +85,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    display: block;
 }
 
 h1 {
@@ -95,7 +96,6 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
-    text-shadow: -2px -2px #313233;
 }
 
 h3 {
@@ -125,9 +125,16 @@ footer {
     width: 100%;
 }
 
+article {
+    margin: auto;
+}
+
 @media (max-width: 1680px) {
     html {
         font-size: 13pt;
+    }
+    article {
+        max-width: 50%;
     }
 }
 
@@ -146,5 +153,14 @@ footer {
 @media (max-width: 736px) {
     html {
         font-size: 11pt;
+    }
+    article {
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 500px) {
+    article {
+        max-width: 90%;
     }
 }
