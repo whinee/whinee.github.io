@@ -1,0 +1,150 @@
+html {
+    font-family:
+        system-ui,
+        /* macOS 10.11-10.12 */
+        -apple-system,
+        /* Windows 6+ */
+        "Segoe UI",
+        /* Android 4+ */
+        "Roboto",
+        /* Ubuntu 10.10+ */
+        "Ubuntu",
+        /* Gnome 3+ */
+        "Cantarell",
+        /* KDE Plasma 5+ */
+        "Noto Sans",
+        /* fallback */
+        sans-serif,
+        /* macOS emoji */
+        "Apple Color Emoji",
+        /* Windows emoji */
+        "Segoe UI Emoji",
+        /* Windows emoji */
+        "Segoe UI Symbol",
+        /* Linux emoji */
+        "Noto Color Emoji";
+    scrollbar-face-color: #646464;
+    scrollbar-base-color: #646464;
+    scrollbar-3dlight-color: #646464;
+    scrollbar-highlight-color: #646464;
+    scrollbar-track-color: #000;
+    scrollbar-arrow-color: #000;
+    scrollbar-shadow-color: #646464;
+    scrollbar-dark-shadow-color: #866a6a;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #000;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #646464;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #666;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #646464;
+}
+
+::-webkit-resizer {
+    background-color: #666;
+}
+
+:root {
+    --highlight-color: #978141;
+}
+
+.flex {
+    display: flex !important;
+}
+
+
+body {
+    color: #fff;
+    background-color: #0f0f0f;
+    font-family: "Montserrat", sans-serif;
+    background: #0f0f0f;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    text-shadow: -2px -2px #313233;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+p.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    color: inherit;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 100%;
+}
+
+@media (max-width: 1680px) {
+    html {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 980px) {
+    html {
+        font-size: 11pt;
+    }
+}
+
+@media (max-width: 736px) {
+    html {
+        font-size: 11pt;
+    }
+}

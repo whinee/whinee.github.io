@@ -1,0 +1,55 @@
+.center {
+  margin: .25em 0 0 0;
+  text-align: center;
+  line-height: 1em;
+}
+
+@media (max-width: 35em) {
+    .cone {
+        display:none;
+    }
+}
+
+@media (max-width: 31em) {
+    h2.center {
+        font-size: 16vw;
+    }
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    text-shadow: -2px -2px #313233;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+p.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    color: inherit;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 100%;
+}
