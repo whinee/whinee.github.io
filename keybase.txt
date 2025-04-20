@@ -1,0 +1,47 @@
+==================================================================
+https://keybase.io/whinyaan
+--------------------------------------------------------------------
+I hereby claim:
+  * I am an admin of https://whinyaan.xyz
+  * I am whinyaan (https://keybase.io/whinyaan) on keybase.
+  * I have a public key ASCsD3xtIOIkKjx-dVSpSoa_PKRvNkEbdouOoeDDlch6Cwo
+To do so, I am signing this object:
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012075cd017b6ebac410a23a5c2c737c2f940ae812f6a66b2ec30477d2887d43c54c0a",
+      "host": "keybase.io",
+      "kid": "0120ac0f7c6d20e2242a3c7e7554a94a86bf3ca46f36411b768b8ea1e0c395c87a0b0a",
+      "uid": "a60f894f71ecb1682f03215ad3643d19",
+      "username": "whinyaan"
+    },
+    "merkle_root": {
+      "ctime": 1745121458,
+      "hash": "751c3bf4dccbce0432654f78df4f670cb17fe8e0c861bea672d2458bbdfb91ea023b1cbd671475b1a46a3ac62e67f5de7eff4a22c1dccff45c655a8ec61220a1",
+      "hash_meta": "d439d922f02c3be56efe779f6c274d26c69282a88948162675d138eee6e165d3",
+      "seqno": 26730359
+    },
+    "service": {
+      "entropy": "bIKjXMIQzamWzvh9dUJTYnMN",
+      "hostname": "whinyaan.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1745121523,
+  "expire_in": 504576000,
+  "prev": "8669fb2df4d61fd805731730c9f429650d2654fc72975187cb14bbbeda51858c",
+  "seqno": 11,
+  "tag": "signature"
+}
+which yields the signature:
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgrA98bSDiJCo8fnVUqUqGvzykbzZBG3aLjqHgw5XIegsKp3BheWxvYWTESpcCC8Qghmn7LfTWH9gFcxcwyfQpZQ0mVPxyl1GHyxS7vtpRhYzEIJAPNDrEkFeiEzYzI+gWr6Co/21XpejJ/XpHDdgVof3VAgHCo3NpZ8RAmBsRK4ocjO1Xe+qfOK55Nc36zRKFxfHuWPze2pq1n/4a2IXq/v6z+60KgDPFnI0jgYAjEU1NZEKR9bXW9jSMDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPFeFTC1ksnLgBP3ihFBy6Ngo/r+xoKgV+9m9zqfBrn0o3RhZ80CAqd2ZXJzaW9uAQ==
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+View my publicly-auditable identity here: https://keybase.io/whinyaan
+==================================================================
